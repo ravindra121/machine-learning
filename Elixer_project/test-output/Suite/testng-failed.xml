@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="settings"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Elixir_Maven.Elixer_project.NewTest">
+        <methods>
+          <include name="settings"/>
+        </methods>
+      </class> <!-- Elixir_Maven.Elixer_project.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
