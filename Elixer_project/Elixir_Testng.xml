@@ -9,6 +9,7 @@
   </groups>
     <classes>
       <class name="Elixir_Maven.Elixer_project.NewTest"/>
+      
     </classes>
     
   </test> <!-- Test -->

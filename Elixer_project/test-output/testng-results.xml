@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="2" passed="0">
+<testng-results skipped="0" failed="1" ignored="2" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="183" started-at="2018-06-22T10:30:13Z" finished-at="2018-06-22T10:30:13Z">
+  <suite name="Suite" duration-ms="156" started-at="2018-06-26T15:31:20Z" finished-at="2018-06-26T15:31:20Z">
     <groups>
       <group name="settings">
-        <method signature="NewTest.settings()[pri:0, instance:Elixir_Maven.Elixer_project.NewTest@3ffc5af1]" name="settings" class="Elixir_Maven.Elixer_project.NewTest"/>
+        <method signature="NewTest.settings()[pri:0, instance:Elixir_Maven.Elixer_project.NewTest@5e5792a0]" name="settings" class="Elixir_Maven.Elixer_project.NewTest"/>
       </group> <!-- settings -->
     </groups>
-    <test name="Test" duration-ms="183" started-at="2018-06-22T10:30:13Z" finished-at="2018-06-22T10:30:13Z">
+    <test name="Test" duration-ms="156" started-at="2018-06-26T15:31:20Z" finished-at="2018-06-26T15:31:20Z">
       <class name="Elixir_Maven.Elixer_project.NewTest">
-        <test-method status="FAIL" signature="settings()[pri:0, instance:Elixir_Maven.Elixer_project.NewTest@3ffc5af1]" name="settings" duration-ms="51" started-at="2018-06-22T10:30:13Z" finished-at="2018-06-22T10:30:13Z">
+        <test-method status="FAIL" signature="settings()[pri:0, instance:Elixir_Maven.Elixer_project.NewTest@5e5792a0]" name="settings" duration-ms="47" started-at="2018-06-26T15:31:20Z" finished-at="2018-06-26T15:31:20Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at Elixir_Maven.Elixer_project.NewTest.settings(NewTest.java:22)
+at Elixir_Maven.Elixer_project.NewTest.settings(NewTest.java:23)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
